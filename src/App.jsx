@@ -1,10 +1,17 @@
 import './App.css'
+import DaisyCarousel from './component/DaisyCarousel'
+import DaisyChatBot from './component/DaisyChatBot'
+import DaisyNav from './component/DaisyNav'
+import NavBar from './component/NavBar'
 
 function App() {
   return (
-    <>
-      <h1 className='text-3xl text-green-700 font-bold'>hello react</h1>
-    </>
+    <div>
+      <DaisyNav />
+      <NavBar/>
+      <DaisyCarousel/>
+      <DaisyChatBot/>
+    </div>
   )
 }
 
