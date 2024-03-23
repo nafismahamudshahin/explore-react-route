@@ -1,0 +1,6 @@
+
+@media screen and (min-width: 328px) and (max-width:650px) {
+    .castomHidden{
+        display: none !important;
+    }
+}

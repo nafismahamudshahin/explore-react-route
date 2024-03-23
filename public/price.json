@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Package",
+    "price": "$20 per month",
+    "features": [
+      "Access to basic gym facilities",
+      "Limited equipment usage",
+      "No access to locker room"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Membership",
+    "price": "$40 per month",
+    "features": [
+      "Access to gym facilities",
+      "Standard equipment usage",
+      "Locker room access",
+      "Limited group fitness classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Silver Membership",
+    "price": "$60 per month",
+    "features": [
+      "Access to gym facilities",
+      "Enhanced equipment usage",
+      "Locker room access",
+      "Unlimited group fitness classes",
+      "One personal training session per month"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gold Membership",
+    "price": "$80 per month",
+    "features": [
+      "Access to gym facilities",
+      "Premium equipment usage",
+      "Locker room access",
+      "Unlimited group fitness classes",
+      "Two personal training sessions per month"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Platinum Membership",
+    "price": "$100 per month",
+    "features": [
+      "Access to gym facilities",
+      "Top-of-the-line equipment usage",
+      "Luxury locker room access",
+      "Unlimited group fitness classes",
+      "Three personal training sessions per month",
+      "Access to sauna and spa facilities"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Corporate Membership",
+    "price": "Contact for pricing",
+    "features": [
+      "Customized membership plans for corporate groups",
+      "Exclusive access to gym facilities",
+      "Flexible payment options",
+      "Dedicated account manager"
+    ]
+  }
+]

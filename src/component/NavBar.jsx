@@ -14,7 +14,7 @@ const NavBar = () => {
             open ? <IoMdMenu className=" hover:bg-blue-800 rounded-full p-1" /> : <IoCloseSharp className=" hover:bg-blue-800 rounded-full p-1" />
           }
         </div>
-        <div className="sm:hidden lg:block">
+        <div className="sm:hidden castomHidden lg:block">
           <h3 className="text-3xl font-serif font-bold">Learn React</h3>
         </div>
         <div className={`absolute lg:static  bg-green-800 lg:bg-transparent sm:top-10 lg:top-0 lg:right-4 duration-1000 lg:block ${open ? "" : "hidden"}`}>
