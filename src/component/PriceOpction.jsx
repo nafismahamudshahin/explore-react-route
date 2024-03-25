@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import { CiCircleCheck } from "react-icons/ci";
+
 const PriceOpction = ({ item }) => {
     // console.log(item[0].name)
 
@@ -12,11 +13,12 @@ const PriceOpction = ({ item }) => {
                         <h2 className='text-2xl'>Price: {item.price}</h2>
                     </div>
                     <h2 className='flex-grow p-5 pl-10'>{item.features.map((featur, index) => {
-                        return(
-                            <div  key={index} className='flex gap-1 items-center'>
-                                <CiCircleCheck/>
+                        return (
+                            <div key={index} className='flex gap-1 items-center'>
+                                <CiCircleCheck />
+                              
                                 <span className='block'>{featur}</span>
-                            </div>   
+                            </div>
                         )
                     })}
                     </h2>
